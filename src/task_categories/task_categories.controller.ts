@@ -3,7 +3,7 @@ import { TaskCategoriesService } from './task_categories.service';
 import { CreateTaskCategoryDto } from './dto/create-task_category.dto';
 import { UpdateTaskCategoryDto } from './dto/update-task_category.dto';
 
-@Controller('task-categories')
+@Controller('TaskCategory')
 export class TaskCategoriesController {
   constructor(private readonly taskCategoriesService: TaskCategoriesService) {}
 
